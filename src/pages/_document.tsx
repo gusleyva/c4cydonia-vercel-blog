@@ -1,55 +1,11 @@
-import Document, { Html, Head, Main, NextScript } from 'next/document'
-import CONFIG from 'c4cydonia.config'
-import CJK from '@libs/cjk'
+import Document, { Html, Head, Main, NextScript } from "next/document"
+import { CONFIG } from "site.config"
 
 class MyDocument extends Document {
   render() {
     return (
       <Html lang={CONFIG.lang}>
         <Head>
-          {/* font setting */}
-          <>
-            <link
-              rel="preload"
-              href="/fonts/SourceSerif.var.woff2"
-              as="font"
-              type="font/woff2"
-              crossOrigin="anonymous"
-            />
-            <link
-              rel="preload"
-              href="/fonts/SourceSerif-Italic.var.woff2"
-              as="font"
-              type="font/woff2"
-              crossOrigin="anonymous"
-            />
-          </>
-          {['zh', 'ja', 'ko'].includes(
-            CONFIG.lang.slice(0, 2).toLocaleLowerCase()
-          ) && (
-            <>
-              <link
-                rel="preconnect"
-                href="https://fonts.gstatic.com"
-                crossOrigin="anonymous"
-              />
-              <link
-                rel="preload"
-                as="style"
-                href={`https://fonts.googleapis.com/css2?family=Noto+Sans+${CJK()}:wght@400;500;700&display=swap`}
-              />
-              <link
-                rel="stylesheet"
-                href={`https://fonts.googleapis.com/css2?family=Noto+Sans+${CJK()}:wght@400;500;700&display=swap`}
-              />
-              <noscript>
-                <link
-                  rel="stylesheet"
-                  href={`https://fonts.googleapis.com/css2?family=Noto+Sans+${CJK()}:wght@400;500;700&display=swap`}
-                />
-              </noscript>
-            </>
-          )}
           <link rel="icon" href="/favicon.ico" />
           <link
             rel="apple-touch-icon"
@@ -62,9 +18,6 @@ class MyDocument extends Document {
             title="RSS 2.0"
             href="/feed"
           ></link>
-          {/* theme setting */}
-          <meta name="theme-color" content={'#f1f3f5'} />
-
           {/* google search console */}
           {CONFIG.googleSearchConsole.enable === true && (
             <>
@@ -74,8 +27,17 @@ class MyDocument extends Document {
               />
             </>
           )}
+          {/* naver search advisor */}
+          {CONFIG.naverSearchAdvisor.enable === true && (
+            <>
+              <meta
+                name="naver-site-verification"
+                content={CONFIG.naverSearchAdvisor.config.siteVerification}
+              />
+            </>
+          )}
         </Head>
-        <body className="bg-day dark:bg-night">
+        <body>
           <Main />
           <NextScript />
         </body>
