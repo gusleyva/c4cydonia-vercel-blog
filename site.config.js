@@ -1,36 +1,43 @@
 const CONFIG = {
   // profile setting (required)
   profile: {
-    name: "morethanmin",
+    name: 'c4cydonia',
     image: "/avatar.svg", // If you want to create your own notion avatar, check out https://notion-avatar.vercel.app
-    role: "frontend developer",
-    bio: "I develop everything using node.",
-    email: "morethanmin.dev@gmail.com",
-    linkedin: "morethanmin",
-    github: "morethanmin",
-    instagram: "",
+    image_light: '/avatar-left.svg',
+    role: "Software engineer",
+    bio: "Software engineer.",
+    linkedin: 'gustavo-leyva-b9493846',
+    email: 'ovatleyva@gmail.com',
+    github: 'gusleyva',
+    instagram: 'ovatleyva',
   },
   projects: [
     {
-      name: `morethan-log`,
-      href: "https://github.com/morethanmin/morethan-log",
+      name: 'c4cydonia',
+      href: '#',
     },
   ],
   // blog setting (required)
   blog: {
-    title: "morethan-log",
-    description: "welcome to morethan-log!",
+    title: 'c4cydonia',
+    description: 'Welcome to c4cydonia',
+    theme: 'light' // ['light', 'dark', 'auto']
   },
 
   // CONFIG configration (required)
-  link: "https://morethan-log.vercel.app",
+  link: 'https://c4cydonia-vercel-blog.vercel.app',
   since: 2022, // If leave this empty, current year will be used.
   lang: "en-US", // ['en-US', 'zh-CN', 'zh-HK', 'zh-TW', 'ja-JP', 'es-ES', 'ko-KR']
   ogImageGenerateURL: "https://og-image-korean.vercel.app", // The link to generate OG image, don't end with a slash
+  seo: {
+    keywords: ['Blog', 'Website', 'Notion','Java', 'java', 'Software', 'Engineer', 'Development', 'Programming'],
+  },
 
   // notion configuration (required)
   notionConfig: {
-    pageId: process.env.NOTION_PAGE_ID,
+    pageId: process.env.NOTION_PAGE_ID
+    // if you prefer not to make your database public, use this!!!
+    // accessToken: process.env.NOTION_ACCESS_TOKEN
   },
 
   // plugin configuration (optional)
