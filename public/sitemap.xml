@@ -1,13 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:mobile="http://www.google.com/schemas/sitemap-mobile/1.0" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
-<url><loc>https://c4cydonia-vercel-blog.vercel.app</loc><lastmod>2023-12-21T05:54:06.596Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://c4cydonia-vercel-blog.vercel.app/docs</loc><lastmod>2023-12-21T05:54:06.596Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://c4cydonia-vercel-blog.vercel.app/hot-to-make-sitemap-in-next-js</loc><lastmod>2023-12-21T05:54:06.596Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://c4cydonia-vercel-blog.vercel.app/apollo-gettings-started-mutate</loc><lastmod>2023-12-21T05:54:06.596Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://c4cydonia-vercel-blog.vercel.app/apollo-gettings-started-query</loc><lastmod>2023-12-21T05:54:06.596Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://c4cydonia-vercel-blog.vercel.app/resume</loc><lastmod>2023-12-21T05:54:06.597Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://c4cydonia-vercel-blog.vercel.app/about-graphql</loc><lastmod>2023-12-21T05:54:06.597Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://c4cydonia-vercel-blog.vercel.app/how-to-apply-ga-to-next.js</loc><lastmod>2023-12-21T05:54:06.597Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://c4cydonia-vercel-blog.vercel.app/about-opensource-license</loc><lastmod>2023-12-21T05:54:06.597Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://c4cydonia-vercel-blog.vercel.app/about</loc><lastmod>2023-12-21T05:54:06.597Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://c4cydonia-vercel-blog.vercel.app</loc><lastmod>2024-01-03T20:35:16.124Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://c4cydonia-vercel-blog.vercel.app/about-graphql</loc><lastmod>2024-01-03T20:35:16.124Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://c4cydonia-vercel-blog.vercel.app/java-entrevista-conceptos</loc><lastmod>2024-01-03T20:35:16.124Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://c4cydonia-vercel-blog.vercel.app/email-500-millas</loc><lastmod>2024-01-03T20:35:16.124Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://c4cydonia-vercel-blog.vercel.app/resume-dev</loc><lastmod>2024-01-03T20:35:16.124Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://c4cydonia-vercel-blog.vercel.app/resume-qa</loc><lastmod>2024-01-03T20:35:16.124Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://c4cydonia-vercel-blog.vercel.app/about</loc><lastmod>2024-01-03T20:35:16.124Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
 </urlset>
