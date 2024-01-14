@@ -1,5 +1,6 @@
 import { NextApiRequest, NextApiResponse } from "next"
 import { getPosts } from "../../apis"
+import { CONFIG } from "site.config"
 
 // for all path revalidate, https://<your-site.com>/api/revalidate?secret=<token>
 // for specific path revalidate, https://<your-site.com>/api/revalidate?secret=<token>&path=<path>
@@ -9,8 +10,12 @@ export default async function handler(
   res: NextApiResponse
 ) {
   const { secret, path } = req.query
+  // let revalidationToken = CONFIG.notionConfig.revalidationToken as string
+  // console.log("secret: " + secret)
+  // console.log("revalidationToken: " + revalidationToken)
   if (secret !== process.env.TOKEN_FOR_REVALIDATE) {
-    return res.status(401).json({ message: "Invalid token" })
+    let msg = "Invalid token, secret: " + secret
+    return res.status(401).json({ message: msg })
   }
 
   try {
