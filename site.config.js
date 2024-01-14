@@ -36,6 +36,7 @@ const CONFIG = {
   // notion configuration (required)
   notionConfig: {
     pageId: process.env.NOTION_PAGE_ID,
+    revalidationToken: process.env.TOKEN_FOR_REVALIDATE,
     // if you prefer not to make your database public, use this!!!
     // accessToken: process.env.NOTION_ACCESS_TOKEN
   },
